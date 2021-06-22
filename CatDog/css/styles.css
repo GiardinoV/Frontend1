@@ -1,0 +1,115 @@
+#header {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.menu {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.paw-blanca {
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 30px;
+    color: #3C2313;
+}
+
+#comederos {
+    position: absolute;
+    top: 370px;
+    left: 57%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+    color: #3C2313;
+}
+
+#comedero-naranja {
+    position: absolute;
+    top: 400px;
+    left: 59%;  
+    background-color: #F0A83E; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+    color: #3C2313;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #3C2313;
+}
+
+#sub{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 15px;
+    color: #666666;
+}
+
+.precio{
+    color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.ju-co-ju {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 15px;
+    color: #3C2313;
+}
+div {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h3 {
+    color: #8A8787;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 11,72px;
+}
+
+footer {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 11,72px
+}

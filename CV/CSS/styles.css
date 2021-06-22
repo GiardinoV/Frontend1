@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(rgb(214, 158, 74), white);
+}
+header {
+    background-image: url('../IMG/fondoHojas.jpg');
+    background-size:contain;
+}
+
+#foto-lisa {
+    width: 125px;
+    padding-left: 40%;
+    margin-top: 4px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+    background-color: #ca854c;
+    color: #f0f4f5;
+    font-size: 35px;
+    margin-bottom: 65px;
+    margin-top: 0px;
+}
+
+.fondo-gris{
+    font-family: 'Viaoda Libre', cursive;
+    background-color: #ca854c;
+    width: 700px;
+    margin-left: 24%;
+    color: #f0f4f5;
+    font-size: 20px;
+}
+
+.centrar {
+    margin-left: 24%;
+    color: black;
+    font-size: 15px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #ca854c;
+    margin-top: 5%;
+}
+
+#texto-footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 50%;
+    top: 113%;
+}
+
+div {
+    margin-left: 51%;
+    color: white;
+}
+
+#sobreMi {
+    font-family: 'Viaoda Libre', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+#headerSobreMi {
+    background-color: #ca854c;
+}
+
+#sectionSobreMi {
+    background-color: #ca854c;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    border-style: inset;
+    border-color: #ca854c;
+}
