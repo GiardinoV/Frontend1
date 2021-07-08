@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h6>20% de descuento en todos los productos</h6>
+        <h1><img src="/img/unknown.png" alt="Imagen tienda">Nombre Tienda</h1>
+    </header>
+    <form action="#">
+        <legend>Registro</legend>
+        <label for="nombre"></label>
+        <input class="casillero" type="text" id="nombre" placeholder="Nombre y Apellido">
+        <label for="email"></label>
+        <input class="casillero" type="email" id="email" placeholder="Correo Electrónico">
+        <label for="password"></label>
+        <input class="casillero" type="password" id="password" placeholder="Contraseña">
+        <label for="país"></label>
+        <select name="país" id="país">
+            <option value="" selected disabled>País</option>
+            <optgroup label="América">
+                <option value="0">Argentina</option>
+                <option value="1">Uruguay</option>
+                <option value="2">Colombia</option>
+                <option value="3">Canadá</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="4">España</option>
+                <option value="5">Francia</option>
+                <option value="6">Italia</option>
+                <option value="7">Holanda</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="8">Japón</option>
+                <option value="9">China</option>
+                <option value="10">India</option>
+                <option value="11">Filipinas</option>
+            </optgroup>
+        </select>
+        <div>
+            <input id="reset" type="reset" value="Resetear">
+            <input id="submit" type="submit" value="Registrar">
+        </div>
+        <p>¿Ya tenés una cuenta? <a href="#">Ingresá</a></p>
+    </form>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
